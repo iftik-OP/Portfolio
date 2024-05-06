@@ -1,0 +1,29 @@
+@font-face {
+    font-family: primaryFont;
+    src: url(../assets/fonts/Obviously-Black.otf);
+  }
+
+.Devider{
+    font-family: primaryFont;
+    /* position: absolute; */
+    width: 100%;
+    height: 15vh;
+    background-color: #d9d9d9ca;
+    font-size: 30px;
+    overflow: hidden;
+}
+
+.Devider h4{
+    white-space: nowrap; /* Prevent the text from wrapping */
+    /* animation: marquee 10s linear infinite; */
+    margin-left: -40px;
+}
+
+/* @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-30%);
+    }
+  } */

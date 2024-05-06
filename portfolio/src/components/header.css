@@ -1,0 +1,80 @@
+.component {
+    height: 974px;
+    width: 1771px;
+  }
+  
+  .component .overlap-group {
+    height: 956px;
+    left: 316px;
+    position: relative;
+    top: 18px;
+    width: 1440px;
+  }
+  
+  .component .image {
+    height: 811px;
+    left: 0;
+    mix-blend-mode: screen;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 1440px;
+  }
+  
+  .component .dsc {
+    height: 956px;
+    left: 0;
+    mix-blend-mode: screen;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 956px;
+  }
+  
+  .component .text-wrapper {
+    color: #ffffff;
+    font-family: "Obviously-Bold", Helvetica;
+    font-size: 203px;
+    font-weight: 700;
+    left: 248px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 282px;
+  }
+  
+  .component .img {
+    height: 661px;
+    left: 386px;
+    object-fit: cover;
+    position: absolute;
+    top: 150px;
+    width: 1054px;
+  }
+  
+  .component .besides-being-cool-i {
+    color: #ffffff;
+    font-family: "Obviously-Medium", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 280px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 479px;
+  }
+  
+  .component .span {
+    font-weight: 500;
+  }
+  
+  .component .text-wrapper-2 {
+    font-family: "Obviously-Bold", Helvetica;
+    font-weight: 700;
+  }
+  
+  .component .text-wrapper-3 {
+    font-family: "Degular-RegularItalic", Helvetica;
+    font-style: italic;
+  }
+  
