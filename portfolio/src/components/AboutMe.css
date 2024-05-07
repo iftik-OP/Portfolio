@@ -10,6 +10,14 @@
   display: flex;
 }
 
+@media (max-width: 1500px) {
+  .intro {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 .About-card::before {
     content: '';
     position: absolute;
@@ -90,6 +98,10 @@
   border-radius: 45px;
   margin-left: 15%;
   margin-top: 5%;
+  @media (max-width: 1500px){
+    margin-left: 0%;
+    margin-top: -5%;
+  }
 }
 
 
@@ -130,4 +142,22 @@
   justify-content: space-between;
   display: flex;
   margin-top: 50px;
+
+  
+}
+
+@media (max-width: 1500px) {
+  .Flutter h2 {
+    display: none; /* Hide the h2 text */
+    justify-content: space-between;
+    margin: 5%;
+  }
+}
+
+@media (max-width: 700px) {
+  .skill-sets {
+    flex-direction: column; /* Align items in a column */
+    justify-content: space-between;
+
+  }
 }
