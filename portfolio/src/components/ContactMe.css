@@ -1,0 +1,62 @@
+.ContactMe{
+    background-image: url("../assets/contact2.png");
+    align-items: center;
+    margin: 6%;
+    height: 150vh;
+    overflow: hidden; /* Ensure child elements don't overflow */
+    border-radius: 45px;
+    background-blend-mode: screen;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
+.ContactMe h4{
+    padding-top: 30%;
+    margin-bottom: 10%;
+    padding-left: 5%;
+    position: relative;
+    color: white;
+    font-family: primaryFont;
+    font-size: 4vw;
+}
+
+.info{
+    padding-top: 25%;
+    padding-right: 10%;
+}
+
+.ContactMe h5{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: primaryFont;
+    font-size: 1.5vw;
+}
+
+
+@media (max-width: 1500px) {
+    .ContactMe {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .info{
+        padding-top: 0%;
+        padding-right: 0%;
+    }
+    .ContactMe h4{
+        font-size: 11vw;
+        padding-top: 0%;
+        padding-left: 0%;
+    }
+
+    .ContactMe h5{
+        
+        font-size: 3vw;
+    }
+}

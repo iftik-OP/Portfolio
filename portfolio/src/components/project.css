@@ -1,0 +1,32 @@
+.Project{
+    
+    overflow: hidden;
+    align-items: start;
+}
+
+.Title{
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 5%;
+    color: white;
+    font-size: 60px;
+    font-family: primaryFont;
+}
+
+@font-face {
+    font-family: primaryFont;
+    src: url(../assets/fonts/Obviously-Bold.otf);
+  }
+  @font-face {
+    font-family: secondaryFont;
+    src: url(../assets/fonts/Degular-Thin.otf);
+  }
+  @font-face {
+    font-family: secondaryFontItalic;
+    src: url(../assets/fonts/Degular-ThinItalic.otf);
+  }
+  
+
+.image{
+    overflow: hidden;
+}
